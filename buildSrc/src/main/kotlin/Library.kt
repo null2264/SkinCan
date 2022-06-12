@@ -9,7 +9,7 @@ object Library {
         const val aboutLibraries = "10.3.0"
         const val sqlDelight = "1.5.3"
         const val adt = "7.2.0"
-        const val kotlinAndroid = "1.6.21"
+        const val kotlinAndroid = "1.7.0"
         const val googleServices = "4.3.10"
     }
 
@@ -46,11 +46,11 @@ object Library {
 
         object Firebase {
             const val bom = "com.google.firebase:firebase-bom:30.1.0"
-            const val analytics = "com.google.firebase:firebase-analytics-ktx:21.0.0"
-            const val auth = "com.google.firebase:firebase-auth-ktx:21.0.5"
-            const val firestore = "com.google.firebase:firebase-firestore-ktx:24.1.2"
-            const val storage = "com.google.firebase:firebase-storage-kts:20.0.1"
-            const val machineLearning = "com.google.firebase:firebase-ml-modeldownloader-ktx:24.0.3"
+            const val analytics = "com.google.firebase:firebase-analytics-ktx"
+            const val auth = "com.google.firebase:firebase-auth-ktx"
+            const val firestore = "com.google.firebase:firebase-firestore-ktx"
+            const val storage = "com.google.firebase:firebase-storage-kts"
+            const val machineLearning = "com.google.firebase:firebase-ml-modeldownloader-ktx"
         }
 
         const val tensorflowLite = "org.tensorflow:tensorflow-lite:2.8.0"
