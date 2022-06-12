@@ -63,6 +63,7 @@ object Library {
         const val aboutLibrariesUI = "com.mikepenz:aboutlibraries:${Version.aboutLibraries}"
         const val sqlDelightAndroid = "com.squareup.sqldelight:android-driver:${Version.sqlDelight}"
         const val sqlDelightPaging = "com.squareup.sqldelight:android-paging3-extensions:${Version.sqlDelight}"
+        const val sqlite = "com.github.requery:sqlite-android:3.36.0"
 
         object Testing {
             const val junit = "junit:junit:4.13.2"

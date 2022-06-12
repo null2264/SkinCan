@@ -100,6 +100,7 @@ dependencies {
     implementation(Library.App.aboutLibrariesUI)
     implementation(Library.App.sqlDelightAndroid)
     implementation(Library.App.sqlDelightPaging)
+    implementation(Library.App.sqlite)
 
     // --- Testing libraries ---
     testImplementation(Library.App.Testing.junit)

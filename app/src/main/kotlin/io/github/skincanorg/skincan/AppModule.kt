@@ -24,6 +24,7 @@ import dagger.hilt.components.SingletonComponent
 import io.github.skincanorg.skincan.data.preference.PreferencesHelper
 import io.github.skincanorg.skincan.data.repository.ResultRepository
 import io.github.skincanorg.skincan.data.repository.UserRepository
+import io.requery.android.database.sqlite.RequerySQLiteOpenHelperFactory
 import javax.inject.Singleton
 
 @Module
@@ -44,7 +45,7 @@ object AppModule {
     @Singleton
     @Provides
     fun providesDatabase(@ApplicationContext context: Context): Database =
-        Database(AndroidSqliteDriver(Database.Schema, context, "database.db"))
+        Database(AndroidSqliteDriver(Database.Schema, context, "database.db", RequerySQLiteOpenHelperFactory()))
 
     @Singleton
     @Provides
